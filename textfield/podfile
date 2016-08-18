@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+
+target 'textfield' do
+pod 'Masonry','~>0'
+end
