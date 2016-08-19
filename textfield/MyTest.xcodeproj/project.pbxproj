@@ -39,7 +39,7 @@
 		C14529F31D6409CB0079361C /* LoginViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewTextField.m; sourceTree = "<group>"; };
 		C14529F51D6414800079361C /* sn_Cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sn_Cancel@2x.png"; sourceTree = "<group>"; };
 		C14529F61D6414800079361C /* sn_ic_key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sn_ic_key@2x.png"; sourceTree = "<group>"; };
-		CB1727081D20B7FE005DBE25 /* textfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1727081D20B7FE005DBE25 /* MyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB17270C1D20B7FE005DBE25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB17270E1D20B7FE005DBE25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB17270F1D20B7FE005DBE25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		CB1727171D20B7FE005DBE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB17271A1D20B7FE005DBE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB17271C1D20B7FE005DBE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB1727211D20B7FE005DBE25 /* textfield.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textfield.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1727211D20B7FE005DBE25 /* MyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1727251D20B7FE005DBE25 /* textfield__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "textfield__________UITests.m"; sourceTree = "<group>"; };
 		CB1727271D20B7FE005DBE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB1727301D20B945005DBE25 /* NSString+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tools.h"; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 		CB1727091D20B7FE005DBE25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB1727081D20B7FE005DBE25 /* textfield.app */,
-				CB1727211D20B7FE005DBE25 /* textfield.xctest */,
+				CB1727081D20B7FE005DBE25 /* MyTest.app */,
+				CB1727211D20B7FE005DBE25 /* MyTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB1727071D20B7FE005DBE25 /* textfield */ = {
+		CB1727071D20B7FE005DBE25 /* MyTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB17272A1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "textfield" */;
+			buildConfigurationList = CB17272A1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "MyTest" */;
 			buildPhases = (
 				B040D0FB11D2047E98F7E8F9 /* [CP] Check Pods Manifest.lock */,
 				CB1727041D20B7FE005DBE25 /* Sources */,
@@ -170,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = textfield;
+			name = MyTest;
 			productName = "textfield只允许输入固定的个数";
-			productReference = CB1727081D20B7FE005DBE25 /* textfield.app */;
+			productReference = CB1727081D20B7FE005DBE25 /* MyTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CB1727201D20B7FE005DBE25 /* textfieldUITests */ = {
+		CB1727201D20B7FE005DBE25 /* MyTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB17272D1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "textfieldUITests" */;
+			buildConfigurationList = CB17272D1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "MyTestUITests" */;
 			buildPhases = (
 				CB17271D1D20B7FE005DBE25 /* Sources */,
 				CB17271E1D20B7FE005DBE25 /* Frameworks */,
@@ -188,9 +188,9 @@
 			dependencies = (
 				CB1727231D20B7FE005DBE25 /* PBXTargetDependency */,
 			);
-			name = textfieldUITests;
+			name = MyTestUITests;
 			productName = "textfield只允许输入固定的个数UITests";
-			productReference = CB1727211D20B7FE005DBE25 /* textfield.xctest */;
+			productReference = CB1727211D20B7FE005DBE25 /* MyTest.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB1727031D20B7FE005DBE25 /* Build configuration list for PBXProject "textfield" */;
+			buildConfigurationList = CB1727031D20B7FE005DBE25 /* Build configuration list for PBXProject "MyTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB1727071D20B7FE005DBE25 /* textfield */,
-				CB1727201D20B7FE005DBE25 /* textfieldUITests */,
+				CB1727071D20B7FE005DBE25 /* MyTest */,
+				CB1727201D20B7FE005DBE25 /* MyTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 /* Begin PBXTargetDependency section */
 		CB1727231D20B7FE005DBE25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB1727071D20B7FE005DBE25 /* textfield */;
+			target = CB1727071D20B7FE005DBE25 /* MyTest */;
 			targetProxy = CB1727221D20B7FE005DBE25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,7 +441,7 @@
 				INFOPLIST_FILE = "textfield只允许输入固定的个数/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhou.map;
-				PRODUCT_NAME = textfield;
+				PRODUCT_NAME = MyTest;
 			};
 			name = Debug;
 		};
@@ -453,7 +453,7 @@
 				INFOPLIST_FILE = "textfield只允许输入固定的个数/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhou.map;
-				PRODUCT_NAME = textfield;
+				PRODUCT_NAME = MyTest;
 			};
 			name = Release;
 		};
@@ -463,7 +463,7 @@
 				INFOPLIST_FILE = "textfield只允许输入固定的个数UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhou.textfield----------UITests";
-				PRODUCT_NAME = textfield;
+				PRODUCT_NAME = MyTest;
 				TEST_TARGET_NAME = "textfield只允许输入固定的个数";
 			};
 			name = Debug;
@@ -474,7 +474,7 @@
 				INFOPLIST_FILE = "textfield只允许输入固定的个数UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhou.textfield----------UITests";
-				PRODUCT_NAME = textfield;
+				PRODUCT_NAME = MyTest;
 				TEST_TARGET_NAME = "textfield只允许输入固定的个数";
 			};
 			name = Release;
@@ -482,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB1727031D20B7FE005DBE25 /* Build configuration list for PBXProject "textfield" */ = {
+		CB1727031D20B7FE005DBE25 /* Build configuration list for PBXProject "MyTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB1727281D20B7FE005DBE25 /* Debug */,
@@ -491,7 +491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB17272A1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "textfield" */ = {
+		CB17272A1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "MyTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB17272B1D20B7FE005DBE25 /* Debug */,
@@ -500,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB17272D1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "textfieldUITests" */ = {
+		CB17272D1D20B7FE005DBE25 /* Build configuration list for PBXNativeTarget "MyTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB17272E1D20B7FE005DBE25 /* Debug */,
