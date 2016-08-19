@@ -438,10 +438,12 @@
 			baseConfigurationReference = 9873716429397AF399C9EB38 /* Pods-textfield.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "textfield只允许输入固定的个数/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhou.map;
 				PRODUCT_NAME = MyTest;
+				PROVISIONING_PROFILE = "82f84b0d-b015-4ce6-9500-5e8d6b921d42";
 			};
 			name = Debug;
 		};
@@ -450,10 +452,12 @@
 			baseConfigurationReference = 5D0649ACED2FD878E640D984 /* Pods-textfield.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "textfield只允许输入固定的个数/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhou.map;
 				PRODUCT_NAME = MyTest;
+				PROVISIONING_PROFILE = "82f84b0d-b015-4ce6-9500-5e8d6b921d42";
 			};
 			name = Release;
 		};
